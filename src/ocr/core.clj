@@ -28,3 +28,5 @@
 
 (defn resolve-number [input]
   (apply str (map patterns (split-numbers input))))
+
+;example (resolve-number test-number)
